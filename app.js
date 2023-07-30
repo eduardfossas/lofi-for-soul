@@ -76,7 +76,7 @@ const pallette = [
 
 class App {
   constructor() {
-    this.audio = new Audio("./public/love.mp3", 60);
+    this.audio = new Audio("./love.mp3", 60);
     this.button = document.querySelector("[js-start]");
 
     window.addEventListener("click", () => {
